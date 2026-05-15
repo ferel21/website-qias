@@ -34,7 +34,7 @@ export function DistributionChart() {
           <Tooltip 
             contentStyle={{ backgroundColor: "#1e293b", border: "none", borderRadius: "8px", color: "#fff" }}
             itemStyle={{ color: "#fff" }}
-            formatter={(value: number) => [`${value}%`, "Persentase"]}
+            formatter={(value: any) => [`${value}%`, "Persentase"]}
           />
           <Legend 
             verticalAlign="bottom" 
