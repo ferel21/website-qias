@@ -1,0 +1,8 @@
+import type { NextConfig } from "next";
+
+const nextConfig: NextConfig = {
+  // Allow access from local network device
+  allowedDevOrigins: ["192.168.1.23"],
+};
+
+export default nextConfig;
